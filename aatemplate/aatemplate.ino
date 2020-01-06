@@ -1,12 +1,6 @@
 /* Display Template for FastLED
- *
- * By: Andrew Tuline
- * 
- * Modified by: Andrew Tuline
- *
- * Date: July, 2015
- *
- * This is a simple non-blocking FastLED display sequence template.
+ *Project for:4D
+ * Author: Fatima Zahra Chriha
  *
  * 
  */
@@ -26,7 +20,7 @@
 #define LED_CK 11                                             // Clock pin for WS2801 or APA102.
 #define COLOR_ORDER BGR                                       // It's GRB for WS2812 and BGR for APA102.
 #define LED_TYPE APA102                                       // Using APA102, WS2812, WS2801. Don't forget to modify LEDS.addLeds to suit.
-#define NUM_LEDS 60                                           // Number of LED's.
+#define NUM_LEDS 80                                           // Number of LED's.
 
 // Global variables can be changed on the fly.
 uint8_t max_bright = 128;                                      // Overall brightness.
