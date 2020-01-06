@@ -1,9 +1,7 @@
 
 /* rainbow_beat
  *
- * By: Andrew Tuline
- *
- * Date: July, 2015
+ * Author: Fatima Zahra Chriha
  * 
  * A rainbow moving back and forth using FastLED function calls with no delays or 'for' loops. Very simple, yet effective.
  *
