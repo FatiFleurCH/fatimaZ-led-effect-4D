@@ -1,7 +1,8 @@
 /* fill_grad
  *
- * By: Andrew Tuline
- *
+ * Andrew Tuline
+ *Modified by: Fatima Zahra Chriha
+ * Needs to test it on LED 80
  * Date: August, 2015
  *
  * Here's a simple method to blend between a couple of colours across a strand of LED's.
