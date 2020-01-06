@@ -1,9 +1,5 @@
 /* beatwave
- *
- * By: Andrew Tuline
- * 
- * Date: October, 2015
- *
+ *Author: Fatima Zahra Chriha
  * This animation combines coloured wave values from several beatsin8() functions. See what you can do to mix this one up.
  *
  */
