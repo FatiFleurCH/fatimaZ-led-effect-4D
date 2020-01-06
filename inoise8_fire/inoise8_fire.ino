@@ -1,8 +1,6 @@
 /* inoise8_fire
  *
- * By: Andrew Tuline
- *
- * Date: January, 2017
+ * Author: Fatima Zahra Chriha
  *
  * This super short sketch (just two lines to the algorithm) displays fire thanks to FastLED's Perlin Noise function and Palettes.
  *
