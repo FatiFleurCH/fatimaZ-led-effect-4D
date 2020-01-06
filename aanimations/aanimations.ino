@@ -1,11 +1,6 @@
 /* aanimations
- *
- * By: Can't recall where I found this. Maybe Stefan Petrick.
- * 
- * Modified by: Andrew Tuline
- *
- * Date: January, 2017
- *
+ *Project for:4D
+ *Author: Fatima Zahra Chriha
  * This sketch demonstrates how to blend between two animations running at the same time.
  * 
  */
@@ -20,7 +15,7 @@
 #define LED_CK 11                                             // Clock pin for WS2801 or APA102.
 #define COLOR_ORDER BGR                                       // It's GRB for WS2812 and BGR for APA102.
 #define LED_TYPE APA102                                       // Using APA102, WS2812, WS2801. Don't forget to change LEDS.addLeds.
-#define NUM_LEDS 60                                           // Number of LED's.
+#define NUM_LEDS 80                                           // Number of LED's.
 
 // Global variables can be changed on the fly.
 uint8_t max_bright = 128;                                     // Overall brightness definition. It can be changed on the fly.
@@ -62,8 +57,6 @@ void loop() {
 
 } // loop()
 
-
-
 void animationA() {                                             // running red stripe.
 
   for (int i = 0; i < NUM_LEDS; i++) {
@@ -74,7 +67,7 @@ void animationA() {                                             // running red s
 } // animationA()
 
 
-
+// To change the color please change the variable from gree to the chosen colorm and change the interval
 void animationB() {                                               // running green stripe in opposite direction.
   for (int i = 0; i < NUM_LEDS; i++) {
     uint8_t green = (millis() / 5) - (i * 12);                    // speed, length
