@@ -1,7 +1,7 @@
 /* inoise8_mover
  *
- * By: Andrew Tuline
- *
+ * Andrew Tuline
+ * Modified by: Fatima Zahra Chriha
  * Date: February, 2017
  *
  * We've used sine waves and counting to move pixels around a strand. In this case, I'm using Perlin Noise to move a pixel up and down the strand.
